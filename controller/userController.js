@@ -1,4 +1,3 @@
-const { Query } = require("pg");
 const pool = require("../config/connectDB");
 
 function getUser(req, res) {
